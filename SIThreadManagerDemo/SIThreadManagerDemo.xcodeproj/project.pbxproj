@@ -13,7 +13,6 @@
 		E8D8BE1E24F7FB6400628FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D8BE1D24F7FB6400628FBA /* Assets.xcassets */; };
 		E8D8BE2124F7FB6400628FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D8BE1F24F7FB6400628FBA /* LaunchScreen.storyboard */; };
 		E8D8BE2424F7FB6400628FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8BE2324F7FB6400628FBA /* main.m */; };
-		E8D8BE2D24F7FCC100628FBA /* SIThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8BE2C24F7FCC100628FBA /* SIThread.m */; };
 		E8D8BE3024F8035800628FBA /* SIThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8BE2F24F8035800628FBA /* SIThreadManager.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		E8D8BE2024F7FB6400628FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D8BE2224F7FB6400628FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D8BE2324F7FB6400628FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8D8BE2B24F7FCC100628FBA /* SIThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIThread.h; sourceTree = "<group>"; };
-		E8D8BE2C24F7FCC100628FBA /* SIThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIThread.m; sourceTree = "<group>"; };
 		E8D8BE2E24F8035800628FBA /* SIThreadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIThreadManager.h; sourceTree = "<group>"; };
 		E8D8BE2F24F8035800628FBA /* SIThreadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIThreadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,8 +78,6 @@
 		E8D8BE2A24F7FB8600628FBA /* SIThreadManager */ = {
 			isa = PBXGroup;
 			children = (
-				E8D8BE2B24F7FCC100628FBA /* SIThread.h */,
-				E8D8BE2C24F7FCC100628FBA /* SIThread.m */,
 				E8D8BE2E24F8035800628FBA /* SIThreadManager.h */,
 				E8D8BE2F24F8035800628FBA /* SIThreadManager.m */,
 			);
@@ -162,7 +157,6 @@
 			files = (
 				E8D8BE3024F8035800628FBA /* SIThreadManager.m in Sources */,
 				E8D8BE1924F7FB6300628FBA /* ViewController.m in Sources */,
-				E8D8BE2D24F7FCC100628FBA /* SIThread.m in Sources */,
 				E8D8BE2424F7FB6400628FBA /* main.m in Sources */,
 				E8D8BE1624F7FB6300628FBA /* AppDelegate.m in Sources */,
 			);

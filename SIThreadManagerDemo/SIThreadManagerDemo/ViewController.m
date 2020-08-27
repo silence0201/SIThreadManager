@@ -50,5 +50,11 @@
     }];
 }
 
+- (IBAction)stopThread {
+    [self.dataBaseThread stop];
+}
+- (IBAction)startThread {
+    [self.dataBaseThread becomeActivity];
+}
 
 @end
